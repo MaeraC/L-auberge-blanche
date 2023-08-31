@@ -31,7 +31,7 @@ window.addEventListener("DOMContentLoaded", function() {
         burgerItem4.classList.add("link", "cart")
         burgerItem5.classList.add("link")
 
-        closeBtn.setAttribute("src", "assets/close.png")
+        closeBtn.setAttribute("src", "https://laubergeblanche.netlify.app/assets/close.png")
 
         closeBtn.addEventListener("click", () => {
             menuBurger.style.display = "none"

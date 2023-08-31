@@ -314,7 +314,8 @@ header {
     .restaurant .text,
     .terrasse .text ,
     .chefs .text ,
-    .carte .text {
+    .carte .text , 
+    .carte img {
         width: 100%;
     }
     
