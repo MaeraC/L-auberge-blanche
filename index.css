@@ -46,6 +46,11 @@ a {
 section {
     padding: 80px 40px;
 }
+@media (max-width: 700px) {
+    section {
+        padding: 40px 20px;
+    }
+}
 .button {
     background: #c09a54;
     padding: 8px 20px;
@@ -175,6 +180,32 @@ header {
     background-size: cover; 
     background-position: bottom;
 }
+@media (max-width: 800px) {
+    header {
+        height: 100vh;
+        background: url(assets/lp.jpg);
+        background-size: cover;
+        background-position: center; 
+    }
+    .header-res {
+        height: 50vh;
+        background: url(assets/restaurant.jpg);
+        background-size: cover; 
+        background-position: bottom;
+    }
+    .header-bar {
+        height: 50vh;
+        background: url(assets/1.avif);
+        background-size: cover; 
+        background-position: bottom;
+    }
+    .header-rsv {
+        height: 50vh;
+        background: url(assets/lp.jpg);
+        background-size: cover; 
+        background-position: bottom;
+    }
+}
 @media (max-width: 700px) {
     header , 
     .header-res , 
@@ -302,19 +333,19 @@ header {
 }
 @media (max-width: 800px) {
     .bg {
-        height: 300px;
+        height: 200px;
         background: url(assets/bg2.jpg);
     }
     .bg2 {
-        height: 300px;
+        height: 200px;
         background: url(assets/bg.jpg);
     }
     .bg3 {
-        height: 300px;
+        height: 200px;
         background: url(assets/chefs2.jpg); 
     }
     .bg4 {
-        height: 300px;
+        height: 200px;
         background: url(assets/terrasse.jpg);
     }
 }
