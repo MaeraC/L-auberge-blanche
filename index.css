@@ -285,6 +285,21 @@ header {
         width: 80%;
         height: 500px;
     }
+    .carte , 
+    .restaurant{
+        flex-direction: column-reverse;
+    }
+    .carte .img {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .carte img {
+        width: 45%;
+        height: 200px;
+        margin: 10px;
+    }
 }
 @media (max-width: 600px) {
     .concept img , 
@@ -302,6 +317,7 @@ header {
     .carte .text {
         width: 100%;
     }
+    
 }
 
 
@@ -424,7 +440,11 @@ form .button {
 form .button:hover {
     background: #c09a54;
 }
-
+@media (max-width: 800px) {
+    form {
+        width: 90%;
+    }
+}
 
 
 
