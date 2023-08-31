@@ -348,21 +348,11 @@ header {
     background-position: center;
 }
 @media (max-width: 800px) {
-    .bg {
-        height: 200px;
-        background: url(assets/bg2.jpg);
-    }
-    .bg2 {
-        height: 200px;
-        background: url(assets/bg.jpg);
-    }
-    .bg3 {
-        height: 200px;
-        background: url(assets/chefs2.jpg); 
-    }
+    .bg ,
+    .bg2 , 
+    .bg3 , 
     .bg4 {
-        height: 200px;
-        background: url(assets/terrasse.jpg);
+        display: none;
     }
 }
 

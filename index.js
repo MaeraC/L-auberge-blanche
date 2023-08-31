@@ -17,11 +17,11 @@ window.addEventListener("DOMContentLoaded", function() {
         const burgerItem5 = document.createElement("li")
         const closeBtn = document.createElement("img")
 
-        burgerItem1.innerHTML = "<a href='index.html'>Accueil</a>"
-        burgerItem2.innerHTML = "<a href='pages/restaurant.html'>Restaurant</a>"
-        burgerItem3.innerHTML = "<a href='pages/bar.html'>Bar</a>"
-        burgerItem4.innerHTML = "<a href='pages/carte.html'>Cartes</a>"
-        burgerItem5.innerHTML = "<a href='pages/reservations.html'>Réservation</a>"
+        burgerItem1.innerHTML = "<a href='https://laubergeblanche.netlify.app/index.html'>Accueil</a>"
+        burgerItem2.innerHTML = "<a href='https://laubergeblanche.netlify.app/pages/restaurant.html'>Restaurant</a>"
+        burgerItem3.innerHTML = "<a href='https://laubergeblanche.netlify.app/pages/bar.html'>Bar</a>"
+        burgerItem4.innerHTML = "<a href='https://laubergeblanche.netlify.app/pages/carte.html'>Cartes</a>"
+        burgerItem5.innerHTML = "<a href='https://laubergeblanche.netlify.app/pages/reservations.html'>Réservation</a>"
 
         menuBurger.classList.add("menu2")
         closeBtn.classList.add("close-menu")
