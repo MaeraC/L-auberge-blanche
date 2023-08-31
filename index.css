@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+}
+h1 , h3 {
+    font-family: "DM Serif Display", serif;
+    font-size: 60px;
+    color: #c09a54;
+}
+p {
+    font-weight: 300;
+    line-height: 30px;
+}
+h2 {
+    text-transform: uppercase;
+    
+    font-weight: 400;
+}
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+ul , li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.titles {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.titles span {
+    width: 50px;
+    background: #c09a54;
+    height: 3px;
+    display: inline-block;
+}
+section {
+    padding: 80px 40px;
+}
+.button {
+    background: #c09a54;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    font-family: "Open Sans", serif;
+    letter-spacing: 2px;
+    border: none;
+    color: white;
+    margin-top: 40px;
+    transition: 0.3s;
+}
+.button:hover {
+    background: black;
+}
+
+
+
+
+
+
+nav {
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav ul li a:hover {
+    color: #c09a54;
+    transition: 0.3s;
+}
+nav img {
+    width: 40px;
+}
+
+
+
+.nav .menu2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    z-index: 99;
+    flex-direction: column;
+    align-items: end;
+    padding: 20px;
+    width: 50%;
+    height: 100vh;
+  }
+  .nav .menu2 a , nav .menu2 .cart{
+    display: inline-block;
+    margin: 10px;
+    color: black;
+  }
+  .nav .menu2 a:hover , nav .menu2 .cart:hover {
+    color: #2c655b;
+    text-decoration: underline;
+  }
+  .nav .menu2 .res-btn {
+    margin-top: 20px;
+  }
+  
+  .close-menu {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 99;
+    width: 20px;
+    height: 20px;
+  }
+  .close-menu:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .open-burger {
+    background: none;
+    width: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .open-burger:hover {
+    transform: scale(0.9);
+  }
+  .burger-btns {
+    display: none;
+  }
+
+
+
+
+header {
+    height: 100vh;
+    background: url(assets/lp.jpg) fixed;
+    background-size: cover;
+    background-position: center; 
+}
+.header-res {
+    height: 50vh;
+    background: url(assets/restaurant.jpg) fixed;
+    background-size: cover; 
+    background-position: bottom;
+}
+.header-bar {
+    height: 50vh;
+    background: url(assets/1.avif) fixed;
+    background-size: cover; 
+    background-position: bottom;
+}
+.header-rsv {
+    height: 50vh;
+    background: url(assets/lp.jpg) fixed;
+    background-size: cover; 
+    background-position: bottom;
+}
+@media (max-width: 700px) {
+    header , 
+    .header-res , 
+    .header-bar , 
+    .header-rsv {
+        height: 350px;
+    }
+    .nav .menu2 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+.concept , 
+.restaurant ,
+.terrasse , 
+.chefs , 
+.carte {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.concept .text , 
+.restaurant .text,
+.terrasse .text ,
+.chefs .text ,
+.carte .text {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.concept img , 
+.restaurant img ,
+.terrasse img ,
+.chefs img  {
+    width: 40%;
+    height: 500px;
+}
+.restaurant img {
+    width: 46%;
+}
+.carte .img {
+    width: 46%;
+}
+.carte img {
+    width: 46%;
+    height: 200px;
+    margin: 10px;
+}
+@media (max-width: 1024px) {
+    .concept , 
+    .restaurant ,
+    .terrasse , 
+    .chefs , 
+    .carte {
+        flex-direction: column;
+    }
+    .concept .text , 
+    .restaurant .text,
+    .terrasse .text ,
+    .chefs .text ,
+    .carte .text {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .concept img , 
+    .restaurant img ,
+    .terrasse img ,
+    .chefs img ,
+    .restaurant img {
+        width: 80%;
+        height: 500px;
+    }
+}
+@media (max-width: 600px) {
+    .concept img , 
+    .restaurant img ,
+    .terrasse img ,
+    .chefs img ,
+    .restaurant img {
+        width: 100%;
+        height: 300px;
+    }
+    .concept .text , 
+    .restaurant .text,
+    .terrasse .text ,
+    .chefs .text ,
+    .carte .text {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+.bg {
+    height: 300px;
+    background: url(assets/bg2.jpg) fixed;
+    background-size: cover; 
+    background-position: center;
+}
+.bg2 {
+    height: 300px;
+    background: url(assets/bg.jpg) fixed;
+    background-size: cover; 
+}
+.bg3 {
+    height: 300px;
+    background: url(assets/chefs2.jpg) fixed;
+    background-size: cover; 
+}
+.bg4 {
+    height: 300px;
+    background: url(assets/terrasse.jpg) fixed;
+    background-size: cover; 
+    background-position: center;
+}
+@media (max-width: 800px) {
+    .bg {
+        height: 300px;
+        background: url(assets/bg2.jpg);
+    }
+    .bg2 {
+        height: 300px;
+        background: url(assets/bg.jpg);
+    }
+    .bg3 {
+        height: 300px;
+        background: url(assets/chefs2.jpg); 
+    }
+    .bg4 {
+        height: 300px;
+        background: url(assets/terrasse.jpg);
+    }
+}
+
+
+
+
+
+footer {
+    color: white;
+    background: #c09a54;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+footer ul li {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+}
+footer ul li:nth-child(1) {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.b {
+    font-weight: bold;
+}
+.copy {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+@media (max-width: 1024px) {
+    footer {
+        flex-direction: column;
+    }
+    footer ul {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+.reservations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+form input {
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-family: "Open Sans", serif;
+}
+form label {
+    font-size: 14px;
+}
+form .button {
+    margin-top: 5px;
+    height: 40px;
+    background: black;
+    transition: 0.3s;
+}
+form .button:hover {
+    background: #c09a54;
+}
+
+
+
+
+
+.cartee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartee img {
+    width: 80%;
+    margin: 20px 0;
+    border: grey 1px solid;
+}
