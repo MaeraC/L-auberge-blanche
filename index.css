@@ -35,7 +35,7 @@ a {
 }
 .titles {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .titles span {
     width: 50px;
@@ -53,13 +53,13 @@ section {
 }
 .button {
     background: #c09a54;
-    padding: 8px 20px;
+    padding: 15px 30px;
     text-transform: uppercase;
     font-family: "Open Sans", serif;
     letter-spacing: 2px;
     border: none;
     color: white;
-    margin-top: 40px;
+    margin-top: 50px;
     transition: 0.3s;
 }
 .button:hover {
@@ -157,7 +157,7 @@ nav img {
 
 
 header {
-    height: 100vh;
+    height: 50vh;
     background: url(assets/lp.jpg) fixed;
     background-size: cover;
     background-position: center; 
@@ -254,11 +254,11 @@ header {
     width: 46%;
 }
 .carte .img {
-    width: 46%;
+    width: 50%;
 }
 .carte img {
     width: 46%;
-    height: 200px;
+    height: 400px;
     margin: 10px;
 }
 @media (max-width: 1024px) {
@@ -327,34 +327,26 @@ header {
 
 
 .bg {
-    height: 300px;
+    height: 400px;
     background: url(assets/bg2.jpg) fixed;
     background-size: cover; 
     background-position: center;
 }
 .bg2 {
-    height: 300px;
+    height: 400px;
     background: url(assets/bg.jpg) fixed;
     background-size: cover; 
 }
 .bg3 {
-    height: 300px;
+    height: 400px;
     background: url(assets/chefs2.jpg) fixed;
     background-size: cover; 
 }
 .bg4 {
-    height: 300px;
+    height: 400px;
     background: url(assets/terrasse.jpg) fixed;
     background-size: cover; 
     background-position: center;
-}
-@media (max-width: 800px) {
-    .bg ,
-    .bg2 , 
-    .bg3 , 
-    .bg4 {
-        display: none;
-    }
 }
 
 
@@ -366,7 +358,8 @@ footer {
     background: #c09a54;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 100px;
+    padding-bottom: 70px;
 }
 footer ul li {
     font-weight: 300;
@@ -405,7 +398,7 @@ footer ul li:nth-child(1) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 50px;
     margin-bottom: 30px;
 }
 form {
@@ -414,17 +407,23 @@ form {
     width: 40%;
 }
 form input {
-    height: 40px;
-    margin-bottom: 10px;
-    padding-left: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 2px 2Px 10px rgb(187, 187, 187);
     font-family: "Open Sans", serif;
 }
 form label {
-    font-size: 14px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 form .button {
-    margin-top: 5px;
-    height: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
     background: black;
     transition: 0.3s;
 }
