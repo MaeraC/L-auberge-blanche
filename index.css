@@ -348,6 +348,20 @@ header {
     background-size: cover; 
     background-position: center;
 }
+@media screen and (max-width: 1024px) {
+    .bg {
+        background: url(assets/bg2.jpg) no-repeat;
+    }
+    .bg2 {
+        background: url(assets/bg.jpg) no-repeat; 
+    }
+    .bg3 {
+        background: url(assets/chefs2.jpg) no-repeat;
+    }
+    .bg4 {
+        background: url(assets/terrasse.jpg) no-repeat;
+    }
+}
 
 
 
